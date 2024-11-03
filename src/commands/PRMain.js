@@ -13,21 +13,22 @@ module.exports = class PRMain {
   }
 
   // Dentro da classe PRMain
+// Modificação para manter os arquivos temporários durante testes/debug
   async run() {
     const tempDirPath = this.outputFolder;
     try {
       logger.info("Starting PR review process...");
-  
+
       // Operações Git
       GitOperator.fetchLatestChanges();
       GitOperator.checkoutBranch(this.branchName);
-  
+
       // Verifica se a branch remota alvo existe
       const branches = await this.getRemoteBranches();
       if (!branches.includes(`origin/${this.targetBranch}`)) {
         throw new Error(`Target branch 'origin/${this.targetBranch}' does not exist.`);
       }
-  
+
       // Gera e parseia o diff com a referência remota
       const diffOutput = GitOperator.generateDiff(`origin/${this.targetBranch}`);
       const parsedChanges = DiffParser.parseDiff(diffOutput);
@@ -35,7 +36,7 @@ module.exports = class PRMain {
         parsedChanges,
         tempDirPath
       );
-  
+
       // Processar com LLM
       const llmAdapter = new LLMAdapter();
       const reviewFilePath = await llmAdapter.processChanges(
@@ -43,7 +44,7 @@ module.exports = class PRMain {
         this.mode,
         tempDirPath
       );
-  
+
       logger.info(`Review saved at: ${reviewFilePath}`);
       return reviewFilePath;
     } catch (error) {
@@ -51,13 +52,14 @@ module.exports = class PRMain {
       throw error;
     } finally {
       try {
-        OutputManager.cleanupTempFiles(tempDirPath);
+        // Passar 'true' para manter os arquivos temporários
+        OutputManager.cleanupTempFiles(tempDirPath, true);
       } catch (cleanupError) {
         logger.error("Failed to clean up temporary files:", cleanupError);
       }
     }
   }
-  
+
   async getRemoteBranches() {
     try {
       const output = await GitOperator.executeGitCommand("git branch -r");

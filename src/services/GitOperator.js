@@ -19,18 +19,24 @@ module.exports = class GitOperator {
 
   static checkoutBranch(branchName) {
     logger.info(`Checking out branch: ${branchName}`);
-    this.executeGitCommand(`git checkout ${branchName}`);
+
+    // Verifica se a branch existe localmente
+    const localBranches = this.executeGitCommand("git branch --list").split("\n").map(branch => branch.trim());
+
+    if (localBranches.includes(branchName)) {
+        this.executeGitCommand(`git checkout ${branchName}`);
+    } else {
+        this.executeGitCommand(`git checkout ${branchName}`);
+    }
+
     logger.info("Updating submodules...");
     this.executeGitCommand("git submodule update --init --recursive");
   }
 
   static generateDiff(targetBranch) {
     logger.info(`Generating diff against ${targetBranch}`);
-    return this.executeGitCommand(
-      `git diff ${targetBranch} --recurse-submodules`
-    );
+    return this.executeGitCommand(`git diff ${targetBranch}...HEAD`);
   }
   
-  
-  
+
 };

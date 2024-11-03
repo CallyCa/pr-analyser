@@ -12,3 +12,228 @@
 2024-11-03T20:32:47.988Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-mZpXB1
 2024-11-03T20:34:21.578Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-bgZjGY
 2024-11-03T20:34:30.745Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-Atq1f1
+2024-11-03T20:39:02.225Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-5BSUcZ
+2024-11-03T20:40:52.534Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-ShnnV3
+2024-11-03T20:42:21.752Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-Ze6msy
+2024-11-03T20:43:00.529Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-koPmWA
+2024-11-03T20:43:30.967Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-ZG80W8
+2024-11-03T20:44:10.305Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-6Zi5EK
+2024-11-03T20:45:00.859Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-1R8Ont
+2024-11-03T20:45:54.173Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-TyygHJ
+2024-11-03T20:46:07.187Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-kW3Vtp
+2024-11-03T20:47:49.165Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-eJsj1J
+2024-11-03T20:48:26.571Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-EodFec
+2024-11-03T20:49:01.640Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-lofOuY
+2024-11-03T20:49:35.465Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-Jef9fI
+2024-11-03T20:50:17.898Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-QUOKMS
+2024-11-03T20:50:46.477Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-TEjfO6
+2024-11-03T20:52:03.723Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-8td9iw
+2024-11-03T20:52:41.819Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-7AEyO3
+2024-11-03T20:53:33.665Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-noKcbN
+2024-11-03T20:54:12.138Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-84ZBA2
+2024-11-03T20:54:44.826Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-aYwuFL
+2024-11-03T20:55:21.415Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-1IqIqR
+2024-11-03T20:56:23.765Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-GZQAJ6
+2024-11-03T20:57:16.049Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-zYccLT
+2024-11-03T20:57:59.707Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-J7WBzx
+2024-11-03T20:59:16.937Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-sx6g8h
+2024-11-03T20:59:58.139Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-5rFHU8
+2024-11-03T21:00:18.556Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-AG1K1c
+2024-11-03T21:00:57.290Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-9ejOz6
+2024-11-03T21:02:58.442Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-Ot5aMF
+2024-11-03T21:04:46.566Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-jCy618
+2024-11-03T21:20:12.029Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-TyTgcl
+2024-11-03T21:20:20.536Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-CXW2xt
+2024-11-03T21:24:06.245Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-EImMlR
+2024-11-03T21:24:14.727Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-De8UAN
+2024-11-03T21:26:42.863Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-xfv8m3
+2024-11-03T21:27:15.007Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-BCR1tw
+2024-11-03T21:27:15.011Z [32minfo[39m: Starting PR review process...
+2024-11-03T21:27:15.011Z [32minfo[39m: Fetching latest changes...
+2024-11-03T21:27:15.011Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T21:27:15.527Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T21:27:15.527Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T21:27:15.531Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T21:27:15.535Z [32minfo[39m: Updating submodules...
+2024-11-03T21:27:15.535Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T21:27:15.555Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T21:27:15.560Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T21:27:15.560Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T21:27:15.564Z [32minfo[39m: Changes saved at: /tmp/pr-reviewer-BCR1tw/pr_changes.txt
+2024-11-03T21:27:15.564Z [32minfo[39m: Processing changes in mode: review
+2024-11-03T21:27:18.998Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-BCR1tw/output_review.txt
+2024-11-03T21:30:09.457Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-jCHO14
+2024-11-03T21:30:09.461Z [32minfo[39m: Starting PR review process...
+2024-11-03T21:30:09.462Z [32minfo[39m: Fetching latest changes...
+2024-11-03T21:30:09.462Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T21:30:09.979Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T21:30:09.979Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T21:30:09.983Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T21:30:09.987Z [32minfo[39m: Updating submodules...
+2024-11-03T21:30:09.987Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T21:30:10.008Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T21:30:10.012Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T21:30:10.012Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T21:30:10.016Z [32minfo[39m: Changes saved at: /tmp/pr-reviewer-jCHO14/pr_changes.txt
+2024-11-03T21:30:10.017Z [32minfo[39m: Processing changes in mode: review
+2024-11-03T21:30:11.716Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-jCHO14/output_review.txt
+2024-11-03T21:33:45.938Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-RQSfwk
+2024-11-03T21:33:45.942Z [32minfo[39m: Starting PR review process...
+2024-11-03T21:33:45.942Z [32minfo[39m: Fetching latest changes...
+2024-11-03T21:33:45.942Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T21:33:46.547Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T21:33:46.547Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T21:33:46.551Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T21:33:46.555Z [32minfo[39m: Updating submodules...
+2024-11-03T21:33:46.555Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T21:33:46.576Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T21:33:46.580Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T21:33:46.580Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T21:33:46.584Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-RQSfwk/pr_changes.txt
+2024-11-03T21:33:46.585Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-RQSfwk/pr_changes.txt
+2024-11-03T21:33:46.585Z [32minfo[39m: Processing changes in mode: review
+2024-11-03T21:33:47.886Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-RQSfwk/output_review.txt
+2024-11-03T21:35:44.703Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-eGGvWu
+2024-11-03T21:35:44.707Z [32minfo[39m: Starting PR review process...
+2024-11-03T21:35:44.707Z [32minfo[39m: Fetching latest changes...
+2024-11-03T21:35:44.707Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T21:35:45.220Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T21:35:45.220Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T21:35:45.224Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T21:35:45.228Z [32minfo[39m: Updating submodules...
+2024-11-03T21:35:45.228Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T21:35:45.249Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T21:35:45.253Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T21:35:45.253Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T21:35:45.256Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-eGGvWu/pr_changes.txt
+2024-11-03T21:35:45.256Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-eGGvWu/pr_changes.txt
+2024-11-03T21:35:45.257Z [32minfo[39m: Processing changes in mode: review
+2024-11-03T21:35:46.746Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-eGGvWu/output_review.txt
+2024-11-03T21:42:43.548Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-NwCsgH
+2024-11-03T21:42:43.552Z [32minfo[39m: Starting PR review process...
+2024-11-03T21:42:43.552Z [32minfo[39m: Fetching latest changes...
+2024-11-03T21:42:43.552Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T21:42:44.070Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T21:42:44.071Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T21:42:44.074Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T21:42:44.079Z [32minfo[39m: Updating submodules...
+2024-11-03T21:42:44.079Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T21:42:44.100Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T21:42:44.103Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T21:42:44.103Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T21:42:44.108Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-NwCsgH/pr_changes.txt
+2024-11-03T21:42:44.108Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-NwCsgH/pr_changes.txt
+2024-11-03T21:42:44.109Z [32minfo[39m: Processing changes in mode: description
+2024-11-03T21:42:52.625Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-NwCsgH/output_description.txt
+2024-11-03T21:46:49.650Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-5YjZZa
+2024-11-03T21:46:49.653Z [32minfo[39m: Starting PR review process...
+2024-11-03T21:46:49.654Z [32minfo[39m: Fetching latest changes...
+2024-11-03T21:46:49.654Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T21:46:50.245Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T21:46:50.246Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T21:46:50.249Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T21:46:50.254Z [32minfo[39m: Updating submodules...
+2024-11-03T21:46:50.254Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T21:46:50.274Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T21:46:50.278Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T21:46:50.278Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T21:46:50.282Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-5YjZZa/pr_changes.txt
+2024-11-03T21:46:50.282Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-5YjZZa/pr_changes.txt
+2024-11-03T21:46:50.283Z [32minfo[39m: Processing changes in mode: review
+2024-11-03T21:46:51.256Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-5YjZZa/output_review.txt
+2024-11-03T21:49:11.062Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-NpgBbB
+2024-11-03T21:49:11.065Z [32minfo[39m: Starting PR review process...
+2024-11-03T21:49:11.066Z [32minfo[39m: Fetching latest changes...
+2024-11-03T21:49:11.066Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T21:49:11.582Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T21:49:11.583Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T21:49:11.586Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T21:49:11.590Z [32minfo[39m: Updating submodules...
+2024-11-03T21:49:11.591Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T21:49:11.611Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T21:49:11.615Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T21:49:11.615Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T21:49:11.619Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-NpgBbB/pr_changes.txt
+2024-11-03T21:49:11.620Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-NpgBbB/pr_changes.txt
+2024-11-03T21:49:11.621Z [32minfo[39m: Processing changes in mode: review
+2024-11-03T21:49:12.975Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-NpgBbB/output_review.txt
+2024-11-03T21:50:33.076Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-0r35hq
+2024-11-03T21:50:33.080Z [32minfo[39m: Starting PR review process...
+2024-11-03T21:50:33.080Z [32minfo[39m: Fetching latest changes...
+2024-11-03T21:50:33.081Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T21:50:33.605Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T21:50:33.606Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T21:50:33.610Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T21:50:33.613Z [32minfo[39m: Updating submodules...
+2024-11-03T21:50:33.614Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T21:50:33.634Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T21:50:33.638Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T21:50:33.638Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T21:50:33.641Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-0r35hq/pr_changes.txt
+2024-11-03T21:50:33.642Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-0r35hq/pr_changes.txt
+2024-11-03T21:50:33.642Z [32minfo[39m: Processing changes in mode: description
+2024-11-03T21:51:01.294Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-0r35hq/output_description.txt
+2024-11-03T23:04:34.228Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-fA7zZM
+2024-11-03T23:04:34.231Z [32minfo[39m: Starting PR review process...
+2024-11-03T23:04:34.232Z [32minfo[39m: Fetching latest changes...
+2024-11-03T23:04:34.232Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T23:04:34.749Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T23:04:34.749Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T23:04:34.753Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T23:04:34.757Z [32minfo[39m: Updating submodules...
+2024-11-03T23:04:34.757Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T23:04:34.778Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T23:04:34.782Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T23:04:34.782Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T23:04:34.786Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-fA7zZM/pr_changes.txt
+2024-11-03T23:04:34.786Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-fA7zZM/pr_changes.txt
+2024-11-03T23:04:34.787Z [32minfo[39m: Processing changes in mode: review
+2024-11-03T23:04:36.675Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-fA7zZM/output_review.txt
+2024-11-03T23:15:39.505Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-m4Wy99
+2024-11-03T23:15:39.509Z [32minfo[39m: Starting PR review process...
+2024-11-03T23:15:39.509Z [32minfo[39m: Fetching latest changes...
+2024-11-03T23:15:39.509Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T23:15:40.083Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T23:15:40.083Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T23:15:40.087Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T23:15:40.091Z [32minfo[39m: Updating submodules...
+2024-11-03T23:15:40.091Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T23:15:40.112Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T23:15:40.116Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T23:15:40.116Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T23:15:40.120Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-m4Wy99/pr_changes.txt
+2024-11-03T23:15:40.120Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-m4Wy99/pr_changes.txt
+2024-11-03T23:15:40.121Z [32minfo[39m: Processing changes in mode: description
+2024-11-03T23:15:46.875Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-m4Wy99/output_description.txt
+2024-11-03T23:18:14.636Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-smH2CQ
+2024-11-03T23:18:14.640Z [32minfo[39m: Starting PR review process...
+2024-11-03T23:18:14.640Z [32minfo[39m: Fetching latest changes...
+2024-11-03T23:18:14.640Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T23:18:15.174Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T23:18:15.174Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T23:18:15.178Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T23:18:15.182Z [32minfo[39m: Updating submodules...
+2024-11-03T23:18:15.182Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T23:18:15.203Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T23:18:15.206Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T23:18:15.206Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T23:18:15.211Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-smH2CQ/pr_changes.txt
+2024-11-03T23:18:15.211Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-smH2CQ/pr_changes.txt
+2024-11-03T23:18:15.212Z [32minfo[39m: Processing changes in mode: review
+2024-11-03T23:18:16.700Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-smH2CQ/output_review.txt
+2024-11-03T23:18:48.918Z [32minfo[39m: Temporary directory created at: /tmp/pr-reviewer-O52J6Z
+2024-11-03T23:18:48.922Z [32minfo[39m: Starting PR review process...
+2024-11-03T23:18:48.922Z [32minfo[39m: Fetching latest changes...
+2024-11-03T23:18:48.923Z [34mdebug[39m: Executing Git command: git fetch --recurse-submodules
+2024-11-03T23:18:49.427Z [32minfo[39m: Checking out branch: origin/main
+2024-11-03T23:18:49.427Z [34mdebug[39m: Executing Git command: git branch --list
+2024-11-03T23:18:49.431Z [34mdebug[39m: Executing Git command: git checkout origin/main
+2024-11-03T23:18:49.435Z [32minfo[39m: Updating submodules...
+2024-11-03T23:18:49.435Z [34mdebug[39m: Executing Git command: git submodule update --init --recursive
+2024-11-03T23:18:49.456Z [34mdebug[39m: Executing Git command: git branch -r
+2024-11-03T23:18:49.459Z [32minfo[39m: Generating diff against origin/main
+2024-11-03T23:18:49.459Z [34mdebug[39m: Executing Git command: git diff origin/main...HEAD
+2024-11-03T23:18:49.463Z [32minfo[39m: Saving changes to: /tmp/pr-reviewer-O52J6Z/pr_changes.txt
+2024-11-03T23:18:49.464Z [32minfo[39m: Changes successfully saved at: /tmp/pr-reviewer-O52J6Z/pr_changes.txt
+2024-11-03T23:18:49.465Z [32minfo[39m: Processing changes in mode: description
+2024-11-03T23:18:51.089Z [32minfo[39m: LLM response saved to /tmp/pr-reviewer-O52J6Z/output_description.txt

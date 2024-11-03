@@ -156,3 +156,348 @@ common diff options:
   -a  --text    treat all files as text.
 
 
+2024-11-03T20:39:02.760Z [31merror[39m: Git command failed: Command failed: git diff origin/main --recurse-submodules
+usage: git diff [<options>] [<commit>] [--] [<path>...]
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...]
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...]
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...]
+   or: git diff [<options>] <blob> <blob>
+   or: git diff [<options>] --no-index [--] <path> <path>
+
+common diff options:
+  -z            output diff-raw with lines terminated with NUL.
+  -p            output patch format.
+  -u            synonym for -p.
+  --patch-with-raw
+                output both a patch and the diff-raw format.
+  --stat        show diffstat instead of patch.
+  --numstat     show numeric diffstat instead of patch.
+  --patch-with-stat
+                output a patch and prepend its diffstat.
+  --name-only   show only names of changed files.
+  --name-status show names and status of changed files.
+  --full-index  show full object name on index lines.
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.
+  -R            swap input file pairs.
+  -B            detect complete rewrites.
+  -M            detect renames.
+  -C            detect copies.
+  --find-copies-harder
+                try unchanged files as candidate for copy detection.
+  -l<n>         limit rename attempts up to <n> paths.
+  -O<file>      reorder diffs according to the <file>.
+  -S<string>    find filepair whose only one side contains the string.
+  --pickaxe-all
+                show all files diff when -S is used and hit is found.
+  -a  --text    treat all files as text.
+
+
+2024-11-03T20:40:53.096Z [31merror[39m: Git command failed: Command failed: git diff origin/main --recurse-submodules
+usage: git diff [<options>] [<commit>] [--] [<path>...]
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...]
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...]
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...]
+   or: git diff [<options>] <blob> <blob>
+   or: git diff [<options>] --no-index [--] <path> <path>
+
+common diff options:
+  -z            output diff-raw with lines terminated with NUL.
+  -p            output patch format.
+  -u            synonym for -p.
+  --patch-with-raw
+                output both a patch and the diff-raw format.
+  --stat        show diffstat instead of patch.
+  --numstat     show numeric diffstat instead of patch.
+  --patch-with-stat
+                output a patch and prepend its diffstat.
+  --name-only   show only names of changed files.
+  --name-status show names and status of changed files.
+  --full-index  show full object name on index lines.
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.
+  -R            swap input file pairs.
+  -B            detect complete rewrites.
+  -M            detect renames.
+  -C            detect copies.
+  --find-copies-harder
+                try unchanged files as candidate for copy detection.
+  -l<n>         limit rename attempts up to <n> paths.
+  -O<file>      reorder diffs according to the <file>.
+  -S<string>    find filepair whose only one side contains the string.
+  --pickaxe-all
+                show all files diff when -S is used and hit is found.
+  -a  --text    treat all files as text.
+
+
+2024-11-03T20:42:22.263Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/main
+fatal: a branch named 'main' already exists
+
+2024-11-03T20:43:01.039Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/main
+fatal: a branch named 'main' already exists
+
+2024-11-03T20:43:31.503Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/main
+fatal: a branch named 'main' already exists
+
+2024-11-03T20:44:11.392Z [31merror[39m: Git command failed: Command failed: git fetch origin origin/main:origin/main
+fatal: couldn't find remote ref origin/main
+
+2024-11-03T20:45:01.377Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/main
+fatal: a branch named 'main' already exists
+
+2024-11-03T20:45:54.926Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/main
+fatal: a branch named 'main' already exists
+
+2024-11-03T20:46:07.734Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/main
+fatal: a branch named 'main' already exists
+
+2024-11-03T20:47:49.716Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/main
+fatal: a branch named 'main' already exists
+
+2024-11-03T20:48:27.098Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/main
+fatal: a branch named 'main' already exists
+
+2024-11-03T20:49:02.272Z [31merror[39m: Git command failed: Command failed: git diff origin/origin/main --recurse-submodules
+fatal: ambiguous argument 'origin/origin/main': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2024-11-03T20:49:36.023Z [31merror[39m: Git command failed: Command failed: git diff origin/main --recurse-submodules
+usage: git diff [<options>] [<commit>] [--] [<path>...]
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...]
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...]
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...]
+   or: git diff [<options>] <blob> <blob>
+   or: git diff [<options>] --no-index [--] <path> <path>
+
+common diff options:
+  -z            output diff-raw with lines terminated with NUL.
+  -p            output patch format.
+  -u            synonym for -p.
+  --patch-with-raw
+                output both a patch and the diff-raw format.
+  --stat        show diffstat instead of patch.
+  --numstat     show numeric diffstat instead of patch.
+  --patch-with-stat
+                output a patch and prepend its diffstat.
+  --name-only   show only names of changed files.
+  --name-status show names and status of changed files.
+  --full-index  show full object name on index lines.
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.
+  -R            swap input file pairs.
+  -B            detect complete rewrites.
+  -M            detect renames.
+  -C            detect copies.
+  --find-copies-harder
+                try unchanged files as candidate for copy detection.
+  -l<n>         limit rename attempts up to <n> paths.
+  -O<file>      reorder diffs according to the <file>.
+  -S<string>    find filepair whose only one side contains the string.
+  --pickaxe-all
+                show all files diff when -S is used and hit is found.
+  -a  --text    treat all files as text.
+
+
+2024-11-03T20:50:19.013Z [31merror[39m: Git command failed: Command failed: git fetch origin origin/main:origin/main
+fatal: couldn't find remote ref origin/main
+
+2024-11-03T20:50:47.048Z [31merror[39m: Git command failed: Command failed: git diff origin/main...HEAD --recurse-submodules
+usage: git diff [<options>] [<commit>] [--] [<path>...]
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...]
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...]
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...]
+   or: git diff [<options>] <blob> <blob>
+   or: git diff [<options>] --no-index [--] <path> <path>
+
+common diff options:
+  -z            output diff-raw with lines terminated with NUL.
+  -p            output patch format.
+  -u            synonym for -p.
+  --patch-with-raw
+                output both a patch and the diff-raw format.
+  --stat        show diffstat instead of patch.
+  --numstat     show numeric diffstat instead of patch.
+  --patch-with-stat
+                output a patch and prepend its diffstat.
+  --name-only   show only names of changed files.
+  --name-status show names and status of changed files.
+  --full-index  show full object name on index lines.
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.
+  -R            swap input file pairs.
+  -B            detect complete rewrites.
+  -M            detect renames.
+  -C            detect copies.
+  --find-copies-harder
+                try unchanged files as candidate for copy detection.
+  -l<n>         limit rename attempts up to <n> paths.
+  -O<file>      reorder diffs according to the <file>.
+  -S<string>    find filepair whose only one side contains the string.
+  --pickaxe-all
+                show all files diff when -S is used and hit is found.
+  -a  --text    treat all files as text.
+
+
+2024-11-03T20:52:04.277Z [31merror[39m: Git command failed: Command failed: git diff origin/main...HEAD --recurse-submodules
+usage: git diff [<options>] [<commit>] [--] [<path>...]
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...]
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...]
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...]
+   or: git diff [<options>] <blob> <blob>
+   or: git diff [<options>] --no-index [--] <path> <path>
+
+common diff options:
+  -z            output diff-raw with lines terminated with NUL.
+  -p            output patch format.
+  -u            synonym for -p.
+  --patch-with-raw
+                output both a patch and the diff-raw format.
+  --stat        show diffstat instead of patch.
+  --numstat     show numeric diffstat instead of patch.
+  --patch-with-stat
+                output a patch and prepend its diffstat.
+  --name-only   show only names of changed files.
+  --name-status show names and status of changed files.
+  --full-index  show full object name on index lines.
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.
+  -R            swap input file pairs.
+  -B            detect complete rewrites.
+  -M            detect renames.
+  -C            detect copies.
+  --find-copies-harder
+                try unchanged files as candidate for copy detection.
+  -l<n>         limit rename attempts up to <n> paths.
+  -O<file>      reorder diffs according to the <file>.
+  -S<string>    find filepair whose only one side contains the string.
+  --pickaxe-all
+                show all files diff when -S is used and hit is found.
+  -a  --text    treat all files as text.
+
+
+2024-11-03T20:52:42.361Z [31merror[39m: Git command failed: Command failed: git diff origin/main...HEAD --recurse-submodules
+usage: git diff [<options>] [<commit>] [--] [<path>...]
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...]
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...]
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...]
+   or: git diff [<options>] <blob> <blob>
+   or: git diff [<options>] --no-index [--] <path> <path>
+
+common diff options:
+  -z            output diff-raw with lines terminated with NUL.
+  -p            output patch format.
+  -u            synonym for -p.
+  --patch-with-raw
+                output both a patch and the diff-raw format.
+  --stat        show diffstat instead of patch.
+  --numstat     show numeric diffstat instead of patch.
+  --patch-with-stat
+                output a patch and prepend its diffstat.
+  --name-only   show only names of changed files.
+  --name-status show names and status of changed files.
+  --full-index  show full object name on index lines.
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.
+  -R            swap input file pairs.
+  -B            detect complete rewrites.
+  -M            detect renames.
+  -C            detect copies.
+  --find-copies-harder
+                try unchanged files as candidate for copy detection.
+  -l<n>         limit rename attempts up to <n> paths.
+  -O<file>      reorder diffs according to the <file>.
+  -S<string>    find filepair whose only one side contains the string.
+  --pickaxe-all
+                show all files diff when -S is used and hit is found.
+  -a  --text    treat all files as text.
+
+
+2024-11-03T20:53:34.784Z [31merror[39m: Git command failed: Command failed: git fetch origin origin/main:origin/main
+fatal: couldn't find remote ref origin/main
+
+2024-11-03T20:54:12.738Z [31merror[39m: Git command failed: Command failed: git checkout -b origin/main origin/origin/main
+fatal: 'origin/origin/main' is not a commit and a branch 'origin/main' cannot be created from it
+
+2024-11-03T20:54:45.347Z [31merror[39m: Git command failed: Command failed: git checkout -b origin/main origin/origin/main
+fatal: 'origin/origin/main' is not a commit and a branch 'origin/main' cannot be created from it
+
+2024-11-03T20:55:22.506Z [31merror[39m: Git command failed: Command failed: git fetch origin origin/main
+fatal: couldn't find remote ref origin/main
+
+2024-11-03T20:56:24.339Z [31merror[39m: Git command failed: Command failed: git checkout -b remotes/origin/main origin/remotes/main
+fatal: 'origin/remotes/main' is not a commit and a branch 'remotes/origin/main' cannot be created from it
+
+2024-11-03T20:57:16.579Z [31merror[39m: Git command failed: Command failed: git checkout -b remotes/origin/main origin/remotes/main
+fatal: 'origin/remotes/main' is not a commit and a branch 'remotes/origin/main' cannot be created from it
+
+2024-11-03T20:58:00.257Z [31merror[39m: Git command failed: Command failed: git diff origin/main...HEAD --recurse-submodules
+warning: refname 'origin/main' is ambiguous.
+usage: git diff [<options>] [<commit>] [--] [<path>...]
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...]
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...]
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...]
+   or: git diff [<options>] <blob> <blob>
+   or: git diff [<options>] --no-index [--] <path> <path>
+
+common diff options:
+  -z            output diff-raw with lines terminated with NUL.
+  -p            output patch format.
+  -u            synonym for -p.
+  --patch-with-raw
+                output both a patch and the diff-raw format.
+  --stat        show diffstat instead of patch.
+  --numstat     show numeric diffstat instead of patch.
+  --patch-with-stat
+                output a patch and prepend its diffstat.
+  --name-only   show only names of changed files.
+  --name-status show names and status of changed files.
+  --full-index  show full object name on index lines.
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.
+  -R            swap input file pairs.
+  -B            detect complete rewrites.
+  -M            detect renames.
+  -C            detect copies.
+  --find-copies-harder
+                try unchanged files as candidate for copy detection.
+  -l<n>         limit rename attempts up to <n> paths.
+  -O<file>      reorder diffs according to the <file>.
+  -S<string>    find filepair whose only one side contains the string.
+  --pickaxe-all
+                show all files diff when -S is used and hit is found.
+  -a  --text    treat all files as text.
+
+
+2024-11-03T20:59:17.498Z [31merror[39m: Git command failed: Command failed: git diff refs/remotes/origin/origin/main...HEAD --recurse-submodules
+fatal: ambiguous argument 'refs/remotes/origin/origin/main...HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2024-11-03T20:59:58.680Z [31merror[39m: Git command failed: Command failed: git diff origin/origin/main...HEAD --recurse-submodules
+fatal: ambiguous argument 'origin/origin/main...HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2024-11-03T21:00:19.079Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/remotes/origin/main
+fatal: 'origin/remotes/origin/main' is not a commit and a branch 'remotes/origin/main' cannot be created from it
+
+2024-11-03T21:00:57.820Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/remotes/origin/main
+fatal: 'origin/remotes/origin/main' is not a commit and a branch 'remotes/origin/main' cannot be created from it
+
+2024-11-03T21:02:58.992Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/remotes/origin/main
+fatal: 'origin/remotes/origin/main' is not a commit and a branch 'remotes/origin/main' cannot be created from it
+
+2024-11-03T21:04:47.070Z [31merror[39m: Git command failed: Command failed: git checkout --track origin/remotes/origin/main
+fatal: 'origin/remotes/origin/main' is not a commit and a branch 'remotes/origin/main' cannot be created from it
+
+2024-11-03T21:20:12.572Z [31merror[39m: Git command failed: Command failed: git diff origin/origin/main...HEAD --recurse-submodules
+fatal: ambiguous argument 'origin/origin/main...HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2024-11-03T21:20:21.094Z [31merror[39m: PR review process failed:
+2024-11-03T21:24:06.780Z [31merror[39m: Git command failed: Command failed: git diff origin/origin/main...HEAD
+fatal: ambiguous argument 'origin/origin/main...HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2024-11-03T21:24:15.367Z [31merror[39m: PR review process failed:
+2024-11-03T21:26:43.421Z [31merror[39m: Git command failed: Command failed: git diff origin/origin/main...HEAD
+fatal: ambiguous argument 'origin/origin/main...HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
